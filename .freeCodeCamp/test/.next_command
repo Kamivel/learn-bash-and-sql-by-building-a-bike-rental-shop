@@ -187,3 +187,7 @@ echo '28 | Mountain'
 echo '28 | Mountain'
 echo '28 | Mountain'
 ./bike-shop.sh
+BIKE_INFO_FORMATTED=$(echo $BIKE_INFO | sed 's/ |/"/')
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+BIKE_INFO_FORMATTED=$(echo $BIKE_INFO | sed 's/ |/"/')
